@@ -1,0 +1,388 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+    box-sizing: border-box;
+}
+header {
+    max-width: 100%;
+    display: inline;
+    position: sticky;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    justify-content: space-evenly;
+    
+}
+
+
+header, ul {
+    background-color: #2c2c32;
+    color: white;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+.logoID, .menuBar, .Search-Download {    
+    margin: 10px;
+    
+} 
+header .logo{
+    display:inline-block;
+    font-size: 25px;
+}
+header ul li a {
+    display: block;
+    color: #a9a9bb;
+    font-weight: 350;
+    padding: 15px;
+    text-decoration: none;
+}
+header ul li a:hover {
+    color: white;
+}
+
+.container {
+    max-width: fit-content;
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    
+}
+
+
+input {
+    background-color: rgba(255,255,255,.08);
+    border: none;
+    height: 50px;
+    padding: 6px 15px 6px 40px;
+    border-radius: 0;
+    color: #fff;
+}
+input:hover {
+    background-color: #a9a9bb;
+    border: none;
+    height: 50px;
+    padding: 6px 15px 6px 40px;
+    border-radius: 0;
+    color: #fff;
+}
+.button {
+    background-color: blue;
+    color: #fff;
+    font-size: 16px;
+    line-height: 100%;
+    padding: 17px 20px;
+    height: 50px;
+}
+.button:hover {
+    background-color: rgb(14, 14, 177);
+}
+
+
+
+.container-one {
+    background-color: #25252b;
+    color: #ccc;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+.container-one a {
+    color: #0098ff;
+    text-decoration: none;
+}
+.container-one a:hover {
+    text-decoration: underline;
+}
+.svg {
+    display: inline-block;
+    max-width: fit-content;
+}
+
+
+
+.pictyreLeft {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #2c2c32;
+    color: #ccc;
+    margin-right: 80%;
+    max-width: fit-content;
+}
+.sidebarLeft  {
+    background-color: #2c2c32;
+    color: #ccc;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-bottom: 60px;
+    padding-top: 50px;
+}
+
+
+.redBox {
+    height: 350px;
+    width: 50%;
+    margin: 30px;
+}
+.redBox a {
+    text-decoration: none;
+    color: #0098ff;
+}
+.redBox button {
+    background-color: #0066b8;
+    color: #a9a9bb;
+    height: 65px;
+    font-size: 15px;
+}
+.buttonn, button:hover {
+    background-color: rgb(14, 14, 177);
+}
+.paragraph-four a:hover {
+    text-decoration: underline;
+}
+.paragraph-five a:hover {
+    text-decoration: underline;
+}
+.redBox, .h1 {
+    max-width: fit-content;
+   font-size: 18px;
+   text-align: center;
+   overflow: hidden;
+   position: relative;
+}
+.dropdown, svg {
+        display: inline-block;
+        vertical-align: middle;
+        background-color: #0066b8;
+        border: 1px solid white;
+        max-width: fit-content;
+        height: 55px;
+        font-size: 15px;
+}
+.svg-two {
+    display: inline-block;
+    max-width: fit-content;
+    font-size: 29px;
+}
+
+.first, p h1 {
+    max-width: fit-content;
+    text-align: center;
+}
+.small-paragraph {
+   width: 100%;
+    background-color: #2c2c32;
+}
+.box-one {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+    height: fit-content;
+    vertical-align: middle;
+}
+.little-box {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+.four {
+    padding: 19px 0px;
+    max-width: fit-content;
+    height: 100%;
+    display: flex;
+}
+.four:hover {
+    background-color: gray;
+}
+.four, a{
+    color:#a9a9bb;
+    text-decoration: none;
+}
+
+
+.socialComments {
+    background-color: #f5f5f5;
+    padding: 57px 0px;
+    width: fit-content;
+    max-width: 100%;
+}
+.only-box {
+    margin-left: 18px;
+    display: flex;
+    justify-content: center;
+    max-width: fit-content;
+}
+
+
+
+
+.Meet-IntelliSense {
+    display: inline;
+}
+.picture1, .h1, .p {
+    margin-top: 30px ;
+    line-height: 35px;
+    width: 535px;
+    color: #444444;
+}
+
+.image-left {
+    width: 100px;
+    display: flex;
+}
+.image-left, .img {
+    margin: 28px 0px 0px;
+    width: fit-content;
+}
+.row {
+    display: flex;
+    padding: 57px, 0px;
+    padding-right: 150px;
+    justify-content: space-evenly;
+}
+.Meet-IntelliSense, h1 {
+    display: flex;
+    max-width: fit-content;
+}
+
+
+
+
+
+.paragraph {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 170px;
+    background-color: #f5f5f5;
+}
+.image-right {
+    width: 30%;
+    height: 10%;
+    margin-top: 20px;    
+}
+.picture2,  .p, .h1 {
+    display: inline;
+    max-width: fit-content;
+    line-height: 25px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    color: #444444;
+}
+.print-statement-debuggingH {
+    margin-top: 30px;
+    
+}
+.print-statement-debugging, .p {
+    display: inline;
+    line-height: 35px;
+}
+
+
+
+.paragraph-thirth {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+.image-thirth {
+    margin: 20px 0px 0px;
+    display: inline-block;
+    max-width: fit-content;
+}
+.git {
+    display: flex;
+    flex-wrap: wrap;
+    height: 170px;
+    margin-top: 30px;
+    width: 50%;
+    line-height: 35px;
+}
+
+
+
+
+.paragraph-four {
+    background-color: #f5f5f5;
+   display: flex;
+   justify-content: center;
+   gap: 130px;
+}
+
+.side, p h1 {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    line-height: 30px;
+    max-width: fit-content;
+}
+
+.extensible-picture {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    max-width: fit-content;
+}
+
+
+
+
+.paragraph-five {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.deploy-image {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    max-width: fit-content;
+}
+
+.deploy-text {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    line-height: 30px;
+    max-width: fit-content;
+}
+
+
+
+
+.bottom-picture, .p {
+    background-color: #f5f5f5;
+    text-align: center;
+    color: #0098ff;
+}
+.bottom-text, .img {
+   margin-left: 630px;
+  line-height: 60px;
+    max-width: fit-content;
+    justify-content: center;
+}
+.buttonn {
+    background-color: blue;
+    color: #fff;
+    font-size: 20px;
+    line-height: 100%;
+    padding: 17px 20px;
+    height: 50px;
+}
+.buttonn:hover {
+    background-color: rgb(14, 14, 177);
+}
+.last-picture {
+    display: flex;
+    margin-left: 310px;
+    width: 100%;
+    max-width: fit-content;
+}
+.footer {
+    background-color: #f5f5f5;
+    padding: 0px 60px;
+    text-align: center;
+    height: 170px;
+}
